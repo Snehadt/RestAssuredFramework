@@ -1,4 +1,4 @@
-Feature: To automate the create playlist feature of Spotify
+Feature: To automate the playlist feature of Spotify
 
   Background:Generation of auth code  and then access token for the spotify api
     Given user is on the chrome browser to generate the authorization code for the client application using scope,redirect_uri and client_id

@@ -44,7 +44,6 @@ public class Utility {
     public void click(WebDriver driver,By keys){
         driver.findElement(keys).click();
     }
-
     public void sendkeys(By element, String encoded,WebDriver driver){
         driver.findElement(element).sendKeys(Utility.decoder(encoded));
     }

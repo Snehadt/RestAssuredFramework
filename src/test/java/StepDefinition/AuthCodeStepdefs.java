@@ -17,7 +17,7 @@ public class AuthCodeStepdefs{
 
     WebDriver driver = null ;
  //   ClientPage page ;
-    WebDriverWait wait ;
+
     LocatorClass lc = new LocatorClass();
     Utility utility = new Utility();
     public static String auth_code = "";

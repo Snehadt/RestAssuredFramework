@@ -9,7 +9,6 @@ import io.restassured.specification.ResponseSpecification;
 
 public class Base {
 
-
     public static RequestSpecification reqSpecBuilder() {
         return new RequestSpecBuilder()
                 .setBaseUri("https://api.spotify.com/")
